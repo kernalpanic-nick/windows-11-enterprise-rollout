@@ -1,18 +1,61 @@
 # windows-11-enterprise-rollout
 
-Project repository for Windows 11 Enterprise rollout with 350+ endpoints and imaging pipeline.
+Windows 10 to Windows 11 enterprise migration project covering 350+ endpoints with imaging pipelines, deployment tools, and PXE boot infrastructure.
 
 ## Overview
 
-This repository contains documentation, scripts, and task sequences for the enterprise-wide rollout of Windows 11 across hundreds of endpoints. It covers the process of migrating from Windows 10 to Windows 11 using standardized imaging tools (MDT, SmartDeploy, ManageEngine OS Deployer), ensuring driver compatibility, BitLocker configuration, and application provisioning. It also includes communications templates and rollback plans to minimize disruption.
+This repository documents 3 projects related to windows 11 enterprise rollout.
 
-## Features
+## Projects
 
-- **Gold image preparation:** Steps for creating and maintaining a Windows 11 gold image with all required drivers, updates, and core applications.
-- **Task sequences & deployment:** MDT/SmartDeploy task sequences for automated deployment, including partitioning, OS install, driver injection, post-install scripts, and verification.
-- **Driver injection & model detection:** Scripts and notes on injecting hardware-specific drivers and detecting models during deployment.
-- **BitLocker & GPO integration:** Guidelines for enabling BitLocker encryption and applying Group Policy settings for Windows 11 security baseline.
-- **Rollback & recovery:** Documented rollback plan in case of deployment failures or user issues; includes backup strategy and steps for re-imaging.
-- **Communication templates:** Email and documentation templates for notifying staff and users about upgrade schedules, training resources, and support.
+#### Windows 10 → 11 Migration (350+ Endpoints)
 
-Use this repository as a reference for planning and executing large-scale Windows 11 migrations in an enterprise or managed environment.
+Built golden image guide. Coordinated deployment tooling.
+
+**Technologies:** Windows 10, Windows 11, OS Migration, Golden Image, Mass Deployment
+
+**Tags:** `Windows 11`, `Windows 10`, `Golden Image`, `Mass Deployment`, `Enterprise Migration`, `OS Deployment`
+
+**Status:** completed
+
+⭐ **Featured Project**
+
+---
+
+#### Enterprise Software Deployment Pipeline
+
+Automated deployment of Microsoft Office, Adobe Acrobat, Citrix Workspace, and line-of-business applications across 350+ endpoints using imaging workflows and RMM tools.
+
+**Technologies:** Software Deployment, Microsoft Office, Adobe Acrobat, Citrix, Automation, RMM, Imaging
+
+**Tags:** `Software Deployment`, `Microsoft Office`, `Adobe Acrobat`, `Citrix`, `RMM`, `Automation`, `Mass Deployment`
+
+**Status:** completed
+
+---
+
+#### Deployment Tool Vendor Coordination
+
+Scoped licensing models for SmartDeploy & PDQ. Escalated Windows 11 compatibility concerns.
+
+**Technologies:** SmartDeploy, PDQ, Vendor Management, Licensing, Compatibility Testing
+
+**Tags:** `SmartDeploy`, `PDQ`, `Vendor Management`, `Licensing`, `Windows 11 Compatibility`
+
+**Status:** completed
+
+---
+
+## Usage
+
+This repository serves as documentation and reference material for the projects listed above. For specific implementation details, configuration files, or scripts, please refer to the individual project sections.
+
+## About
+
+These projects are part of a comprehensive IT infrastructure portfolio showcasing enterprise operations, system administration, and technical problem-solving across multiple domains.
+
+## Contact
+
+- **GitHub:** [@kernalpanic-nick](https://github.com/kernalpanic-nick)
+- **Email:** nick.suderno@kernalpanic.net
+- **LinkedIn:** [Nickolas Suderno](https://linkedin.com/in/nickolas-suderno-88508437a)
